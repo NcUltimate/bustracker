@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Route",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "BusDirection",
+          "type": "BUS_DIRECTIONS"
+        },
+        {
+          "name": "BusStop",
+          "type": "BUS_STOPS"
+        },
+        {
+          "name": "AdverbClause",
+          "type": "ADVERB_CLAUSES"
+        }
+      ],
+      "intent": "BusIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Train",
+          "type": "TRAINS"
+        },
+        {
+          "name": "TrainDirection",
+          "type": "TRAIN_DIRECTIONS"
+        },
+        {
+          "name": "TrainStop",
+          "type": "TRAIN_STOPS"
+        },
+        {
+          "name": "AdverbClause",
+          "type": "ADVERB_CLAUSES"
+        }
+      ],
+      "intent": "TrainIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

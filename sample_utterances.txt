@@ -1,0 +1,12 @@
+BusIntent {AdverbClause} the next {BusDirection} {Route} from {BusStop}
+BusIntent next {BusDirection} {Route} from {BusStop}
+BusIntent from {BusStop} {AdverbClause} the next {BusDirection} {Route}
+BusIntent {AdverbClause} the next {Route} from {BusStop}
+BusIntent next {Route} from {BusStop}
+BusIntent from {BusStop} {AdverbClause} the next {Route}
+TrainIntent {AdverbClause} the next {TrainDirection} {Train} from {TrainStop}
+TrainIntent next {TrainDirection} {Train} from {TrainStop}
+TrainIntent from {TrainStop} {AdverbClause} the next {TrainDirection} {Train}
+TrainIntent {AdverbClause} the next {Train} from {TrainStop}
+TrainIntent next {Train} from {TrainStop}
+TrainIntent from {TrainStop} {AdverbClause} the next {Train}
